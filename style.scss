@@ -1,0 +1,110 @@
+@import 'nom.scss';
+
+@mixin disjual(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bord(){
+    border: 5px solid blue;
+    border-radius: 10px;
+}
+
+body {
+    background-color: $yashil;
+}
+
+.non {
+    color: $qizil;
+
+    &:hover{
+        color: $kul_rang;
+        cursor: pointer;
+    }
+}
+
+.navi {
+    &:hover{
+        color: $kul_rang;
+        cursor: pointer;
+    }
+    font-size: $hajim;
+    width: $uzunlik;
+    height: $kaltalik;
+    background-color: $kul_rang;
+    color: $oq;
+    margin-top: 10px;
+    @include disjual();
+    @include bord(); 
+}
+
+.ga {
+    background-color: $kul_rang;
+    width: $yuz_foiz;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: $kaltalik;
+
+    i {
+        height: $kaltalik;
+        color: $oq;
+        background-color: $qizil;
+        @include disjual(); 
+        width: $kaltalik;
+
+        &:hover {
+            background-color: $oq;
+            cursor: pointer;
+            color: $qora;
+        }
+    }
+
+    del {
+        height: $kaltalik;
+        color: $oq;
+        background-color: $qizil;
+        @include disjual(); 
+        width: $kaltalik;
+
+        &:hover {
+            background-color: $oq;
+            cursor: pointer;
+            color: $qora;
+        }
+    }
+
+    b {
+        height: $kaltalik;
+        @include disjual(); 
+        color: $oq;
+        background-color: $qizil;
+        width: $kaltalik;
+
+        &:hover {
+            background-color: $oq;
+            cursor: pointer;
+            color: $qora;
+        }
+    }
+}
+
+.pi {
+    background-color: $qizil;
+    color: $oq;
+    font-size: $katta_hajim;
+    font-family: $shirft_nice;
+    @include bord();
+
+    &:hover {
+        background-color: $oren;
+        color: $qora;
+        cursor: pointer;
+    }
+}
+
+.divi {
+    @extend .navi;
+}

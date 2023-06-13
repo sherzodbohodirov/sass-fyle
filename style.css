@@ -1,0 +1,95 @@
+body {
+  background-color: #70f270;
+}
+
+.non {
+  color: red;
+}
+.non:hover {
+  color: rgb(84, 83, 83);
+  cursor: pointer;
+}
+
+.navi, .divi {
+  font-size: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(84, 83, 83);
+  color: #fff;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue;
+  border-radius: 10px;
+}
+.navi:hover, .divi:hover {
+  color: rgb(84, 83, 83);
+  cursor: pointer;
+}
+
+.ga {
+  background-color: rgb(84, 83, 83);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  height: 50px;
+}
+.ga i {
+  height: 50px;
+  color: #fff;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.ga i:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: rgba(47, 31, 31, 0.345);
+}
+.ga del {
+  height: 50px;
+  color: #fff;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.ga del:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: rgba(47, 31, 31, 0.345);
+}
+.ga b {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: red;
+  width: 50px;
+}
+.ga b:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: rgba(47, 31, 31, 0.345);
+}
+
+.pi {
+  background-color: red;
+  color: #fff;
+  font-size: 50px;
+  font-family: monospace;
+  border: 5px solid blue;
+  border-radius: 10px;
+}
+.pi:hover {
+  background-color: chocolate;
+  color: rgba(47, 31, 31, 0.345);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
